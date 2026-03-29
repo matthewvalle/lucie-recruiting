@@ -6,7 +6,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
   {
     _rowIndex: 2, School: 'Northwestern', Division: 'D1', Conference: 'Big Ten',
     'Academic Ranking': '#9', 'Acceptance Rate': '7%',
-    'Head Coach': 'Kelly Amonte Hiller', 'Coach Email': 'lacrosse@northwestern.edu',
+    'Head Coach': 'Kelly Amonte Hiller', 'Coach Email': 'h-amonte@northwestern.edu',
     'Coach Phone': '', 'Coach Background': 'Former US National Team, 7x NCAA Champion coach',
     'Choate Connection': '', 'Roster Size': '35', 'Goalies on Roster': '3',
     'Graduating Goalies': '1 (2027)', 'Program URL': 'https://nusports.com/sports/womens-lacrosse',
@@ -15,7 +15,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
   {
     _rowIndex: 3, School: 'Boston College', Division: 'D1', Conference: 'ACC',
     'Academic Ranking': '#36', 'Acceptance Rate': '17%',
-    'Head Coach': 'Acacia Walker-Weinstein', 'Coach Email': 'wlax@bc.edu',
+    'Head Coach': 'Acacia Walker-Weinstein', 'Coach Email': 'walkerau@bc.edu',
     'Coach Phone': '', 'Coach Background': 'Former Northwestern All-American',
     'Choate Connection': '', 'Roster Size': '33', 'Goalies on Roster': '3',
     'Graduating Goalies': '1 (2028)', 'Program URL': 'https://bceagles.com/sports/womens-lacrosse',
@@ -33,7 +33,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
   {
     _rowIndex: 5, School: 'Syracuse', Division: 'D1', Conference: 'ACC',
     'Academic Ranking': '#62', 'Acceptance Rate': '44%',
-    'Head Coach': 'Regy Thorpe', 'Coach Email': 'wlax@syr.edu',
+    'Head Coach': 'Regy Thorpe', 'Coach Email': 'rjthorpe@syr.edu',
     'Coach Phone': '', 'Coach Background': 'SU alum, 10 years as assistant. Replaced Kayla Treanor (left for Penn State)',
     'Choate Connection': '', 'Roster Size': '32', 'Goalies on Roster': '2',
     'Graduating Goalies': '1 (2027)', 'Program URL': 'https://cuse.com/sports/womens-lacrosse',
@@ -42,7 +42,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
   {
     _rowIndex: 6, School: 'Princeton', Division: 'D1', Conference: 'Ivy League',
     'Academic Ranking': '#1', 'Acceptance Rate': '4%',
-    'Head Coach': 'Jenn Cook', 'Coach Email': 'wlax@princeton.edu',
+    'Head Coach': 'Jenn Cook', 'Coach Email': 'jc30@princeton.edu',
     'Coach Phone': '', 'Coach Background': 'Promoted after Chris Sailer retired (36-yr career). 7 Ivy League titles as assistant.',
     'Choate Connection': 'Strong Choate pipeline to Ivy', 'Roster Size': '30',
     'Goalies on Roster': '3', 'Graduating Goalies': '1 (2028)',
@@ -74,7 +74,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
   {
     _rowIndex: 9, School: 'Middlebury', Division: 'D3', Conference: 'NESCAC',
     'Academic Ranking': '#9 LAC', 'Acceptance Rate': '13%',
-    'Head Coach': 'Kate Westhoff', 'Coach Email': 'wlax@middlebury.edu',
+    'Head Coach': 'Kate Livesay', 'Coach Email': 'klivesay@middlebury.edu',
     'Coach Phone': '', 'Coach Background': '',
     'Choate Connection': 'NESCAC schools recruit heavily from NE prep',
     'Roster Size': '28', 'Goalies on Roster': '3', 'Graduating Goalies': '1 (2027)',
@@ -85,7 +85,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
   {
     _rowIndex: 10, School: 'Tufts', Division: 'D3', Conference: 'NESCAC',
     'Academic Ranking': '#32', 'Acceptance Rate': '10%',
-    'Head Coach': 'Courtney Shea', 'Coach Email': 'wlax@tufts.edu',
+    'Head Coach': 'Courtney Shute', 'Coach Email': 'courtney.shute@tufts.edu',
     'Coach Phone': '', 'Coach Background': '',
     'Choate Connection': '', 'Roster Size': '26', 'Goalies on Roster': '2',
     'Graduating Goalies': '0', 'Program URL': 'https://gotuftsjumbos.com/sports/womens-lacrosse',
@@ -141,7 +141,7 @@ export const DEMO_HOCKEY_PROGRAMS: Program[] = [
     _rowIndex: 6, School: 'Middlebury', Division: 'D3', Conference: 'NESCAC',
     'Academic Ranking': '#9 LAC', 'Acceptance Rate': '13%',
     'Head Coach': 'Bill Mandigo', 'Coach Email': 'whockey@middlebury.edu',
-    'Coach Phone': '', 'Coach Background': '',
+    'Coach Phone': '', 'Coach Background': 'Winningest D3 women\'s hockey coach ever (698-185-60). RETIRING June 2026 — successor TBD.',
     'Choate Connection': 'NESCAC recruits from NE prep schools',
     'Roster Size': '24', 'Defenders on Roster': '7', 'Graduating Defenders': '1 (2028)',
     'Program URL': 'https://athletics.middlebury.edu/sports/womens-ice-hockey',
@@ -164,7 +164,7 @@ export const DEMO_HOCKEY_PROGRAMS: Program[] = [
 export const DEMO_COACHES: Coach[] = [
   {
     _rowIndex: 2, Name: 'Kelly Amonte Hiller', School: 'Northwestern', Sport: 'Lacrosse',
-    Role: 'Head Coach', Email: 'lacrosse@northwestern.edu', Phone: '',
+    Role: 'Head Coach', Email: 'h-amonte@northwestern.edu', Phone: '',
     'Alma Mater': 'Maryland', 'Years at Program': '23',
     Background: '7x NCAA champion coach, former US National Team',
     'Choate Connection': '', Notes: '', 'Last Updated': '2026-03-29',
