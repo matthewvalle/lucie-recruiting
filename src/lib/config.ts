@@ -12,9 +12,9 @@ export const SPREADSHEET_ID = import.meta.env.PUBLIC_SPREADSHEET_ID || '';
 
 // Whitelist family Google accounts
 export const ALLOWED_EMAILS: string[] = [
-  // Add family emails here, e.g.:
-  // 'matt@example.com',
-  // 'family@example.com',
+  'matthew.j.valle@gmail.com',
+  'lucie.e.valle@gmail.com',
+  'sarahlachancevalle@gmail.com',
 ];
 
 // Sheet tab names
