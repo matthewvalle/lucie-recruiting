@@ -12,7 +12,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Led UNC to 3 NCAA titles; one of the winningest coaches in D1 history',
     'Choate Connection': '', 'Roster Size': '34', 'Goalies on Roster': '3',
     'Graduating Goalies': '0', 'Program URL': 'https://goheels.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Dream', Notes: 'Chapel Hill, NC', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Chapel Hill, NC', 'Last Updated': '2026-03-29',
   },
   // #2 Stanford
   {
@@ -22,7 +22,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Northwestern alum (2010), 3x NCAA champion as player; swept Pac-12 titles in 2021, 2022, 2024',
     'Choate Connection': '', 'Roster Size': '33', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://gostanford.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Dream', Notes: 'Stanford, CA', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Stanford, CA', 'Last Updated': '2026-03-29',
   },
   // #3 Maryland
   {
@@ -32,7 +32,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Maryland alum (1998), 5x NCAA champion coach, 2025 IWLCA Hall of Fame inductee, 350+ career wins',
     'Choate Connection': '', 'Roster Size': '35', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://umterps.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Target', Notes: 'College Park, MD', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'College Park, MD', 'Last Updated': '2026-03-29',
   },
   // #4 Navy
   {
@@ -42,7 +42,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'West Chester alum, NCAA all-time wins leader (600+), 8x NCAA champion at Maryland before building Navy program',
     'Choate Connection': '', 'Roster Size': '32', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://navysports.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Reach', Notes: 'Annapolis, MD. Service academy commitment required.', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Annapolis, MD. Service academy commitment required.', 'Last Updated': '2026-03-29',
   },
   // #5 Syracuse
   {
@@ -52,7 +52,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Syracuse alum, NCAA champion as player (1993), 10 yrs as SU assistant, came from Florida as associate HC',
     'Choate Connection': '', 'Roster Size': '32', 'Goalies on Roster': '2',
     'Graduating Goalies': '1 (2027)', 'Program URL': 'https://cuse.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Target', Notes: 'Syracuse, NY', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Syracuse, NY', 'Last Updated': '2026-03-29',
   },
   // #6 Johns Hopkins
   {
@@ -62,7 +62,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'UMass alum (2012), former Northwestern assistant and Arizona State HC; 4th year at JHU',
     'Choate Connection': '', 'Roster Size': '32', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://hopkinssports.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Dream', Notes: 'Baltimore, MD. Elite academics + lacrosse hotbed.', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Baltimore, MD. Elite academics + lacrosse hotbed.', 'Last Updated': '2026-03-29',
   },
   // #7 Florida
   {
@@ -72,7 +72,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Temple alum (1988), NCAA champion as player, US Lacrosse Hall of Fame, 2026 IWLCA Hall of Fame inductee',
     'Choate Connection': '', 'Roster Size': '34', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://floridagators.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Target', Notes: 'Gainesville, FL', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Gainesville, FL', 'Last Updated': '2026-03-29',
   },
   // #8 Yale
   {
@@ -83,7 +83,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Choate Connection': 'Strong Choate-Yale pipeline', 'Roster Size': '30',
     'Goalies on Roster': '2', 'Graduating Goalies': '1 (2028)',
     'Program URL': 'https://yalebulldogs.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Dream', Notes: 'New Haven, CT. Close proximity to Choate.',
+    'Questionnaire URL': '', Priority: '', Notes: 'New Haven, CT. Close proximity to Choate.',
     'Last Updated': '2026-03-29',
   },
   // #9 Michigan
@@ -94,7 +94,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Former Tewaaraton Award winner at Northwestern',
     'Choate Connection': '', 'Roster Size': '33', 'Goalies on Roster': '3',
     'Graduating Goalies': '1 (2028)', 'Program URL': 'https://mgoblue.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Target', Notes: 'Ann Arbor, MI. August camp on watchlist.',
+    'Questionnaire URL': '', Priority: '', Notes: 'Ann Arbor, MI. August camp on watchlist.',
     'Last Updated': '2026-03-29',
   },
   // #10 Clemson
@@ -105,7 +105,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'William & Mary alum, W&M Hall of Fame; formerly HC at Richmond (64-16 record); inaugural Clemson HC',
     'Choate Connection': '', 'Roster Size': '33', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://clemsontigers.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Target', Notes: 'Clemson, SC. New program (started 2023), rising fast.', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Clemson, SC. New program (started 2023), rising fast.', 'Last Updated': '2026-03-29',
   },
   // #11 Stony Brook
   {
@@ -115,7 +115,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Adelphi alum (1996), 3x D2 national champ coach at Adelphi; 224-45 at SB, 12 straight NCAA bids',
     'Choate Connection': '', 'Roster Size': '32', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://stonybrookathletics.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Safety', Notes: 'Stony Brook, NY', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Stony Brook, NY', 'Last Updated': '2026-03-29',
   },
   // #12 Northwestern
   {
@@ -125,7 +125,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Maryland alum, former US National Team, 7x NCAA Champion coach',
     'Choate Connection': '', 'Roster Size': '35', 'Goalies on Roster': '3',
     'Graduating Goalies': '1 (2027)', 'Program URL': 'https://nusports.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Dream', Notes: 'Evanston, IL', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Evanston, IL', 'Last Updated': '2026-03-29',
   },
   // #13 Notre Dame
   {
@@ -135,7 +135,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Virginia Tech alum, 15th season at ND; NCAA tournament in 9 of 11 completed seasons; former William & Mary HC',
     'Choate Connection': '', 'Roster Size': '33', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://fightingirish.com/sports/wlax',
-    'Questionnaire URL': '', Priority: 'Dream', Notes: 'Notre Dame, IN', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Notre Dame, IN', 'Last Updated': '2026-03-29',
   },
   // #14 Colorado
   {
@@ -145,7 +145,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Northwestern alum (2007), 3x NCAA champion as player, 3x as NU assistant; built CU program from scratch',
     'Choate Connection': '', 'Roster Size': '33', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://cubuffs.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Target', Notes: 'Boulder, CO', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Boulder, CO', 'Last Updated': '2026-03-29',
   },
   // #15 Boston College
   {
@@ -155,7 +155,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Former Northwestern All-American, led BC to consecutive Final Fours',
     'Choate Connection': '', 'Roster Size': '33', 'Goalies on Roster': '3',
     'Graduating Goalies': '1 (2028)', 'Program URL': 'https://bceagles.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Target', Notes: 'Chestnut Hill, MA', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Chestnut Hill, MA', 'Last Updated': '2026-03-29',
   },
   // #16 Army
   {
@@ -165,7 +165,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Syracuse alum, Tewaaraton finalist, former Oregon/Florida/Syracuse assistant; Noto Family HC at Army',
     'Choate Connection': '', 'Roster Size': '32', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://goarmywestpoint.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Reach', Notes: 'West Point, NY. Service academy commitment required.', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'West Point, NY. Service academy commitment required.', 'Last Updated': '2026-03-29',
   },
   // #17 Duke
   {
@@ -175,7 +175,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Maryland alum (1993), 1992 NCAA champion as player; only HC in Duke WLax history (since 1996)',
     'Choate Connection': '', 'Roster Size': '33', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://goduke.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Dream', Notes: 'Durham, NC', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Durham, NC', 'Last Updated': '2026-03-29',
   },
   // #18 Denver
   {
@@ -185,7 +185,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Delaware alum, 3x All-American; 19th season at DU, 6 straight NCAA bids; formerly HC at Boston University',
     'Choate Connection': '', 'Roster Size': '33', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://denverpioneers.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Target', Notes: 'Denver, CO', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Denver, CO', 'Last Updated': '2026-03-29',
   },
   // #19 Princeton
   {
@@ -196,7 +196,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Choate Connection': 'Strong Choate pipeline to Ivy', 'Roster Size': '30',
     'Goalies on Roster': '3', 'Graduating Goalies': '1 (2028)',
     'Program URL': 'https://goprincetontigers.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Dream', Notes: 'Princeton, NJ. Ivy -- no athletic scholarships but strong aid.',
+    'Questionnaire URL': '', Priority: '', Notes: 'Princeton, NJ. Ivy -- no athletic scholarships but strong aid.',
     'Last Updated': '2026-03-29',
   },
   // #20 Virginia
@@ -207,7 +207,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Maryland alum (2003), 2x national champion as player; formerly 13-yr HC at Towson; Australian-born',
     'Choate Connection': '', 'Roster Size': '33', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://virginiasports.com/sports/wlax',
-    'Questionnaire URL': '', Priority: 'Dream', Notes: 'Charlottesville, VA', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Charlottesville, VA', 'Last Updated': '2026-03-29',
   },
   // #21 Loyola Maryland
   {
@@ -217,7 +217,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Maryland alum (2001), NCAA career scoring record holder, 4x national champion as player; US Lacrosse Hall of Fame',
     'Choate Connection': '', 'Roster Size': '32', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://loyolagreyhounds.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Target', Notes: 'Baltimore, MD', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Baltimore, MD', 'Last Updated': '2026-03-29',
   },
   // #22 Penn State
   {
@@ -227,7 +227,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Syracuse alum (2016), 4x All-American; 59-24 as Syracuse HC with back-to-back Final Fours; new at PSU in 2026',
     'Choate Connection': '', 'Roster Size': '33', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://gopsusports.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Target', Notes: 'State College, PA', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'State College, PA', 'Last Updated': '2026-03-29',
   },
   // #23 Georgetown
   {
@@ -237,7 +237,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Maryland alum, Tewaaraton winner, 2x All-American; 12 yrs as UMD assistant, mentored 6 Tewaaraton winners',
     'Choate Connection': '', 'Roster Size': '32', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://guhoyas.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Dream', Notes: 'Washington, DC', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Washington, DC', 'Last Updated': '2026-03-29',
   },
   // #24 Pittsburgh
   {
@@ -247,7 +247,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'Detroit Mercy alum (2013), built Pitt program from scratch (2019); formerly JMU assistant during 2018 national title',
     'Choate Connection': '', 'Roster Size': '32', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://pittsburghpanthers.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Safety', Notes: 'Pittsburgh, PA', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Pittsburgh, PA', 'Last Updated': '2026-03-29',
   },
   // #25 Richmond
   {
@@ -257,7 +257,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': 'William & Mary alum (2007), rose from 6-yr assistant to interim to HC at Richmond in 2022',
     'Choate Connection': '', 'Roster Size': '30', 'Goalies on Roster': '',
     'Graduating Goalies': '', 'Program URL': 'https://richmondspiders.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Safety', Notes: 'Richmond, VA', 'Last Updated': '2026-03-29',
+    'Questionnaire URL': '', Priority: '', Notes: 'Richmond, VA', 'Last Updated': '2026-03-29',
   },
   // ===== D3 PROGRAMS =====
   {
@@ -268,7 +268,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Choate Connection': 'NESCAC schools recruit heavily from NE prep',
     'Roster Size': '28', 'Goalies on Roster': '3', 'Graduating Goalies': '1 (2027)',
     'Program URL': 'https://athletics.middlebury.edu/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Target',
+    'Questionnaire URL': '', Priority: '',
     Notes: 'Middlebury, VT. Perennial D3 power, top academics.', 'Last Updated': '2026-03-29',
   },
   {
@@ -278,7 +278,7 @@ export const DEMO_LACROSSE_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': '',
     'Choate Connection': '', 'Roster Size': '26', 'Goalies on Roster': '2',
     'Graduating Goalies': '0', 'Program URL': 'https://gotuftsjumbos.com/sports/womens-lacrosse',
-    'Questionnaire URL': '', Priority: 'Target', Notes: 'Medford, MA. Near Boston.',
+    'Questionnaire URL': '', Priority: '', Notes: 'Medford, MA. Near Boston.',
     'Last Updated': '2026-03-29',
   },
 ];
@@ -291,7 +291,7 @@ export const DEMO_HOCKEY_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': '1980 Miracle on Ice team member',
     'Choate Connection': '', 'Roster Size': '28', 'Defenders on Roster': '8',
     'Graduating Defenders': '2 (2027)', 'Program URL': 'https://uwbadgers.com/sports/womens-ice-hockey',
-    'Questionnaire URL': '', Priority: 'Dream', Notes: 'Dominant program',
+    'Questionnaire URL': '', Priority: '', Notes: 'Dominant program',
     'Last Updated': '2026-03-29',
   },
   {
@@ -301,7 +301,7 @@ export const DEMO_HOCKEY_PROGRAMS: Program[] = [
     'Coach Phone': '', 'Coach Background': '',
     'Choate Connection': '', 'Roster Size': '26', 'Defenders on Roster': '7',
     'Graduating Defenders': '2 (2028)', 'Program URL': 'https://nuhuskies.com/sports/womens-ice-hockey',
-    'Questionnaire URL': '', Priority: 'Target', Notes: 'Boston location',
+    'Questionnaire URL': '', Priority: '', Notes: 'Boston location',
     'Last Updated': '2026-03-29',
   },
   {
@@ -312,7 +312,7 @@ export const DEMO_HOCKEY_PROGRAMS: Program[] = [
     'Choate Connection': 'Strong Choate-Yale pipeline', 'Roster Size': '25',
     'Defenders on Roster': '7', 'Graduating Defenders': '1 (2028)',
     'Program URL': 'https://yalebulldogs.com/sports/womens-ice-hockey',
-    'Questionnaire URL': '', Priority: 'Dream', Notes: 'Close proximity to Choate, dual sport Ivy opportunity',
+    'Questionnaire URL': '', Priority: '', Notes: 'Close proximity to Choate, dual sport Ivy opportunity',
     'Last Updated': '2026-03-29',
   },
   {
@@ -323,7 +323,7 @@ export const DEMO_HOCKEY_PROGRAMS: Program[] = [
     'Choate Connection': 'Choate sends students to Harvard', 'Roster Size': '25',
     'Defenders on Roster': '8', 'Graduating Defenders': '2 (2027)',
     'Program URL': 'https://gocrimson.com/sports/womens-ice-hockey',
-    'Questionnaire URL': '', Priority: 'Dream', Notes: '',
+    'Questionnaire URL': '', Priority: '', Notes: '',
     'Last Updated': '2026-03-29',
   },
   {
@@ -334,7 +334,7 @@ export const DEMO_HOCKEY_PROGRAMS: Program[] = [
     'Choate Connection': 'NESCAC recruits from NE prep schools',
     'Roster Size': '24', 'Defenders on Roster': '7', 'Graduating Defenders': '1 (2028)',
     'Program URL': 'https://athletics.middlebury.edu/sports/womens-ice-hockey',
-    'Questionnaire URL': '', Priority: 'Target', Notes: 'Could do dual sport here in D3',
+    'Questionnaire URL': '', Priority: '', Notes: 'Could do dual sport here in D3',
     'Last Updated': '2026-03-29',
   },
   {
@@ -345,7 +345,281 @@ export const DEMO_HOCKEY_PROGRAMS: Program[] = [
     'Choate Connection': 'Ivy pipeline from Choate', 'Roster Size': '25',
     'Defenders on Roster': '7', 'Graduating Defenders': '1 (2028)',
     'Program URL': 'https://brownbears.com/sports/womens-ice-hockey',
-    'Questionnaire URL': '', Priority: 'Target', Notes: '',
+    'Questionnaire URL': '', Priority: '', Notes: '',
+    'Last Updated': '2026-03-29',
+  },
+  // ===== D3 PROGRAMS (25 total including Middlebury above) =====
+  // --- NESCAC (highest priority — Lucie attends Choate Rosemary Hall) ---
+  {
+    _rowIndex: 8, School: 'Williams', Division: 'D3', Conference: 'NESCAC',
+    'Academic Ranking': '#1 LAC', 'Acceptance Rate': '9%',
+    'Head Coach': 'Meghan Gillis', 'Coach Email': 'Meghan.Gillis@williams.edu',
+    'Coach Phone': '413-597-2899', 'Coach Background': 'Bowdoin \'07; 15th season; 2 NESCAC titles (2014, 2019); coached at Pomfret School (CT prep).',
+    'Choate Connection': 'NESCAC — top target for NE prep players. Gillis coached at Pomfret School (CT prep).',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://ephsports.williams.edu/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Williamstown, MA. #1 LAC. Elite academics + competitive NESCAC hockey.',
+    'Last Updated': '2026-03-29',
+  },
+  {
+    _rowIndex: 9, School: 'Amherst', Division: 'D3', Conference: 'NESCAC',
+    'Academic Ranking': '#2 LAC', 'Acceptance Rate': '7%',
+    'Head Coach': 'Jeff Matthews', 'Coach Email': 'jmatthews@amherst.edu',
+    'Coach Phone': '413-542-2219', 'Coach Background': 'RPI \'95, Deerfield Academy \'91; 14th year; 209-81-34; 3 NESCAC titles in 5 yrs; played pro in Sweden.',
+    'Choate Connection': 'NESCAC — strong NE prep pipeline. Matthews is Deerfield Academy alum.',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://athletics.amherst.edu/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Amherst, MA. Perennial contender. 2023 NCAA D3 Championship Game.',
+    'Last Updated': '2026-03-29',
+  },
+  {
+    _rowIndex: 10, School: 'Bowdoin', Division: 'D3', Conference: 'NESCAC',
+    'Academic Ranking': '#5 LAC', 'Acceptance Rate': '9%',
+    'Head Coach': 'Marissa O\'Neil', 'Coach Email': 'moneil@bowdoin.edu',
+    'Coach Phone': '', 'Coach Background': 'Bowdoin \'05; since 2010; 100+ wins; NESCAC Coach of Year 2013; holds 5 Bowdoin all-time records.',
+    'Choate Connection': 'NESCAC — Brunswick, ME. NE prep pipeline.',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://athletics.bowdoin.edu/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Brunswick, ME. 2013 NESCAC Champions.',
+    'Last Updated': '2026-03-29',
+  },
+  {
+    _rowIndex: 11, School: 'Colby', Division: 'D3', Conference: 'NESCAC',
+    'Academic Ranking': '#11 LAC', 'Acceptance Rate': '10%',
+    'Head Coach': 'Holley Tyng', 'Coach Email': 'holley.tyng@colby.edu',
+    'Coach Phone': '207-859-4947', 'Coach Background': 'Providence College \'01; 10th year; 100th win Jan 2025; 3 NCAA bids in 4 yrs; 11 yrs at Dartmouth; USA Hockey U18 staff.',
+    'Choate Connection': 'NESCAC — Waterville, ME. Tyng coached at Tabor Academy (NE prep).',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://colbyathletics.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Waterville, ME. Rising program. USA Hockey coaching connections.',
+    'Last Updated': '2026-03-29',
+  },
+  {
+    _rowIndex: 12, School: 'Hamilton', Division: 'D3', Conference: 'NESCAC',
+    'Academic Ranking': '#14 LAC', 'Acceptance Rate': '12%',
+    'Head Coach': 'Kayte Holtz', 'Coach Email': 'kholtz@hamilton.edu',
+    'Coach Phone': '315-859-4833', 'Coach Background': 'Bowdoin \'13; first-team All-American; HC since Oct 2023 after 10 yrs as assistant; best season ever 22-6-2 + first NCAA appearance (2022-23).',
+    'Choate Connection': 'NESCAC — Clinton, NY. NE prep pipeline.',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://athletics.hamilton.edu/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Clinton, NY. Program trending up. 2023 NCAA Semifinalist.',
+    'Last Updated': '2026-03-29',
+  },
+  {
+    _rowIndex: 13, School: 'Trinity (CT)', Division: 'D3', Conference: 'NESCAC',
+    'Academic Ranking': '#46 LAC', 'Acceptance Rate': '30%',
+    'Head Coach': 'Keith Maurice', 'Coach Email': 'keith.maurice@trincoll.edu',
+    'Coach Phone': '', 'Coach Background': 'Norwich \'02; 11th season; formerly asst at Ohio State (D1); helped Norwich win 2011 NCAA D3 title.',
+    'Choate Connection': 'NESCAC — Hartford, CT. ~30 min from Choate. Strongest geographic connection.',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://bantamsports.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Hartford, CT. Closest NESCAC to Choate.',
+    'Last Updated': '2026-03-29',
+  },
+  {
+    _rowIndex: 14, School: 'Wesleyan', Division: 'D3', Conference: 'NESCAC',
+    'Academic Ranking': '#18 LAC', 'Acceptance Rate': '14%',
+    'Head Coach': 'Jodi McKenna', 'Coach Email': 'jamckenna@wesleyan.edu',
+    'Coach Phone': '', 'Coach Background': 'Brown \'98; 19th season; 2010 Olympics asst coach (Team USA silver); also S&C coach; St. Lawrence MA.',
+    'Choate Connection': 'NESCAC — Middletown, CT. ~25 min from Choate. Very strong geographic connection.',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://athletics.wesleyan.edu/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Middletown, CT. Very close to Choate. Olympic coaching pedigree.',
+    'Last Updated': '2026-03-29',
+  },
+  {
+    _rowIndex: 15, School: 'Connecticut College', Division: 'D3', Conference: 'NESCAC',
+    'Academic Ranking': '#46 LAC', 'Acceptance Rate': '39%',
+    'Head Coach': 'Kristin Steele', 'Coach Email': 'Kristin.Steele@conncoll.edu',
+    'Coach Phone': '860-439-2847', 'Coach Background': 'Maine \'94; 25th season; NESCAC & NE Hockey Writers Coach of Year 2015; previously asst at Niagara (D1).',
+    'Choate Connection': 'NESCAC — New London, CT. ~45 min from Choate. CT connection.',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://camelathletics.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'New London, CT. Longest-tenured NESCAC WIH coach.',
+    'Last Updated': '2026-03-29',
+  },
+  // --- SUNYAC ---
+  {
+    _rowIndex: 16, School: 'Plattsburgh State (SUNY)', Division: 'D3', Conference: 'SUNYAC',
+    'Academic Ranking': 'Regional University (North)', 'Acceptance Rate': '55%',
+    'Head Coach': 'Kevin Houle', 'Coach Email': '',
+    'Coach Phone': '', 'Coach Background': 'Boston College \'86; 23rd season; 517-69-28 (.865); 7 NCAA D3 titles; 7x AHCA Coach of Year; drafted by Montreal Canadiens 1982.',
+    'Choate Connection': '',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://gocardinalsports.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Plattsburgh, NY. Most dominant D3 WIH program. 2026 SUNYAC Champs.',
+    'Last Updated': '2026-03-29',
+  },
+  // --- NEHC (New England Hockey Conference) ---
+  {
+    _rowIndex: 17, School: 'Elmira', Division: 'D3', Conference: 'NEHC',
+    'Academic Ranking': 'Regional (North)', 'Acceptance Rate': '72%',
+    'Head Coach': 'Greg Haney', 'Coach Email': '',
+    'Coach Phone': '', 'Coach Background': 'SUNY Cortland \'10; 3rd season; 2024 NCAA title game; 2024 NEHC champions; previously HC at SUNY Potsdam; asst at D1 Lindenwood.',
+    'Choate Connection': '',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://athletics.elmira.edu/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Elmira, NY. 8 NCAA championship appearances. 2024 national runner-up.',
+    'Last Updated': '2026-03-29',
+  },
+  {
+    _rowIndex: 18, School: 'Endicott', Division: 'D3', Conference: 'NEHC',
+    'Academic Ranking': 'Regional (North)', 'Acceptance Rate': '78%',
+    'Head Coach': 'Andrew McPhee', 'Coach Email': 'amcphee@endicott.edu',
+    'Coach Phone': '', 'Coach Background': 'Middlebury \'99; 11th yr at Endicott; formerly HC at Trinity (CT) 2000-11; 2x NESCAC Coach of Year; 3x AHCA Regional Coach of Year; asst at Brown.',
+    'Choate Connection': 'McPhee formerly coached at Trinity (CT) — understands NE prep talent.',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://www.ecgulls.com/sports/wice/index',
+    'Questionnaire URL': '', Priority: '', Notes: 'Beverly, MA. Coach is Middlebury alum with NESCAC background.',
+    'Last Updated': '2026-03-29',
+  },
+  {
+    _rowIndex: 19, School: 'Salve Regina', Division: 'D3', Conference: 'CNE',
+    'Academic Ranking': 'Regional (North)', 'Acceptance Rate': '73%',
+    'Head Coach': 'Meghan Toomey', 'Coach Email': '',
+    'Coach Phone': '', 'Coach Background': 'St. Lawrence alum & Hall of Famer; pro player (Montreal Axion, HC Lugano); coached at Hill School, Kents Hill, KUA; asst at D1 Colgate.',
+    'Choate Connection': 'Toomey coached at 3 NE prep schools — understands prep pipeline.',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://salveathletics.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Newport, RI. New coach with prep school + D1 background.',
+    'Last Updated': '2026-03-29',
+  },
+  {
+    _rowIndex: 20, School: 'Nichols', Division: 'D3', Conference: 'NEHC',
+    'Academic Ranking': 'Regional (North)', 'Acceptance Rate': '78%',
+    'Head Coach': 'Michael Barrett', 'Coach Email': '',
+    'Coach Phone': '', 'Coach Background': '5th season; 30 yrs at Quinnipiac (asst men\'s, then HC women\'s 6 seasons); former AWHCA VP & President; USA Hockey Level 5.',
+    'Choate Connection': '',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://nicholsathletics.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Dudley, MA. Coach has Quinnipiac D1 background.',
+    'Last Updated': '2026-03-29',
+  },
+  // --- Little East Conference ---
+  {
+    _rowIndex: 21, School: 'Norwich', Division: 'D3', Conference: 'Little East',
+    'Academic Ranking': 'Regional (North)', 'Acceptance Rate': '73%',
+    'Head Coach': 'Justin Simpson', 'Coach Email': '',
+    'Coach Phone': '', 'Coach Background': 'Laurentian Univ / MBA Providence College; 1st season; formerly assoc HC at Brown (D1); asst at RIT + Colby; LEC Coach of Year 2026; AHCA finalist.',
+    'Choate Connection': 'Simpson previously coached at Colby (NESCAC) — knows NE prep talent.',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://norwichathletics.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Northfield, VT. Historic program. Perfect LEC record 2025-26. Coach has Brown/Colby pedigree.',
+    'Last Updated': '2026-03-29',
+  },
+  // --- UCHC (United Collegiate Hockey Conference) ---
+  {
+    _rowIndex: 22, School: 'Nazareth', Division: 'D3', Conference: 'UCHC',
+    'Academic Ranking': 'Regional (North)', 'Acceptance Rate': '76%',
+    'Head Coach': 'Chris Baudo', 'Coach Email': '',
+    'Coach Phone': '', 'Coach Background': 'Hamilton \'00; 9th season; 116 wins in 6 yrs; 3 straight UCHC titles + 3 NCAA bids; 5x UCHC Coach of Year; 15 yrs at The Gunnery (CT prep).',
+    'Choate Connection': 'Baudo coached at The Gunnery (CT prep) for 15 years — deep CT prep hockey roots.',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://nazathletics.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Rochester, NY. 2026 NCAA semifinalist. Coach has CT prep roots (The Gunnery). Hamilton alum.',
+    'Last Updated': '2026-03-29',
+  },
+  {
+    _rowIndex: 23, School: 'Manhattanville', Division: 'D3', Conference: 'UCHC',
+    'Academic Ranking': 'Regional (North)', 'Acceptance Rate': '74%',
+    'Head Coach': 'Jennifer MacAskill', 'Coach Email': 'Jennifer.MacAskill@mville.edu',
+    'Coach Phone': '914-798-2761', 'Coach Background': 'Mercyhurst \'18; 6th season; played D1 (captain, 2 CHA titles, 2 NCAA appearances); MS Sport Business from Manhattanville.',
+    'Choate Connection': '',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://govaliants.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Purchase, NY. Now Manhattanville University.',
+    'Last Updated': '2026-03-29',
+  },
+  {
+    _rowIndex: 24, School: 'Utica', Division: 'D3', Conference: 'UCHC',
+    'Academic Ranking': 'Regional (North)', 'Acceptance Rate': '82%',
+    'Head Coach': 'Melissa Lomanto', 'Coach Email': 'malomant@utica.edu',
+    'Coach Phone': '315-792-5284', 'Coach Background': 'Utica \'05; 2nd season as HC; formerly HC at Morrisville State (89 wins, 2 CHC titles, 2x Coach of Year).',
+    'Choate Connection': '',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://uticapioneers.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Utica, NY. 2025 UCHC Coach of Year.',
+    'Last Updated': '2026-03-29',
+  },
+  {
+    _rowIndex: 25, School: 'Stevenson', Division: 'D3', Conference: 'UCHC',
+    'Academic Ranking': 'Regional (North)', 'Acceptance Rate': '85%',
+    'Head Coach': 'Ben Halford', 'Coach Email': '',
+    'Coach Phone': '', 'Coach Background': 'Princeton alum; 1st season; played pro (AHL, ECHL); formerly asst at Penn State (D1, 3 CHA titles); 5 yrs asst at Wilkes (D3); founder Accelerate Goaltending.',
+    'Choate Connection': '',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://gomustangsports.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Stevenson, MD. New coach with D1 Penn State + Princeton pedigree.',
+    'Last Updated': '2026-03-29',
+  },
+  {
+    _rowIndex: 26, School: 'Chatham', Division: 'D3', Conference: 'UCHC',
+    'Academic Ranking': 'Regional (North)', 'Acceptance Rate': '66%',
+    'Head Coach': 'Mike O\'Grady', 'Coach Email': '',
+    'Coach Phone': '', 'Coach Background': 'John Carroll \'14; 7th season; formerly asst at Mercyhurst (D1, CHC champ + NCAA Elite 8); asst at UMaine; previously HC at Nichols.',
+    'Choate Connection': '',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://gochathamcougars.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Pittsburgh, PA. 6 straight UCHC playoff appearances.',
+    'Last Updated': '2026-03-29',
+  },
+  // --- NCHA (Northern Collegiate Hockey Association) ---
+  {
+    _rowIndex: 27, School: 'Adrian', Division: 'D3', Conference: 'NCHA',
+    'Academic Ranking': 'Regional (Midwest)', 'Acceptance Rate': '67%',
+    'Head Coach': 'Chad Davis', 'Coach Email': '',
+    'Coach Phone': '', 'Coach Background': 'AIC alum; 9th season (returned 2024); 193-80-21; 4x NCHA Coach of Year; 2017 NCAA D3 National Coach of Year; played pro CHL.',
+    'Choate Connection': '',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://adrianbulldogs.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Adrian, MI. Historically strong — 150-37-10 in Davis\'s first stint.',
+    'Last Updated': '2026-03-29',
+  },
+  // --- MIAC (Minnesota Intercollegiate Athletic Conference) ---
+  {
+    _rowIndex: 28, School: 'Gustavus Adolphus', Division: 'D3', Conference: 'MIAC',
+    'Academic Ranking': '#150 LAC', 'Acceptance Rate': '72%',
+    'Head Coach': 'Mike Carroll', 'Coach Email': '',
+    'Coach Phone': '', 'Coach Background': 'MSU-Mankato alum; 27th season; 535-135-48 (.745); 2nd winningest all-time D3 WIH; 2023 NCAA D3 national champion; played pro baseball (Expos org).',
+    'Choate Connection': '',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://gogusties.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'St. Peter, MN. 2023 National Champions.',
+    'Last Updated': '2026-03-29',
+  },
+  // --- SUNYAC ---
+  {
+    _rowIndex: 29, School: 'SUNY Canton', Division: 'D3', Conference: 'SUNYAC',
+    'Academic Ranking': 'Regional (North)', 'Acceptance Rate': '87%',
+    'Head Coach': 'Kalie Hart', 'Coach Email': '',
+    'Coach Phone': '', 'Coach Background': 'St. Lawrence alum (D1 captain); 4th season; formerly asst at Adrian (40-7-2 in 2 seasons); MS Sport Management.',
+    'Choate Connection': '',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://rooathletics.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Canton, NY.',
+    'Last Updated': '2026-03-29',
+  },
+  {
+    _rowIndex: 30, School: 'Morrisville State (SUNY)', Division: 'D3', Conference: 'SUNYAC',
+    'Academic Ranking': 'Regional (North)', 'Acceptance Rate': '80%',
+    'Head Coach': 'John Briggs', 'Coach Email': '',
+    'Coach Phone': '', 'Coach Background': 'Cortland alum (coaching degree); 3rd season; formerly asst at SUNY Cortland (2 NEWHL finals); studied at Abertay Univ (Scotland).',
+    'Choate Connection': '',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://morrisvillemustangs.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Morrisville, NY.',
+    'Last Updated': '2026-03-29',
+  },
+  // --- MAC (Middle Atlantic Conference) ---
+  {
+    _rowIndex: 31, School: 'Lebanon Valley', Division: 'D3', Conference: 'MAC',
+    'Academic Ranking': 'Regional (North)', 'Acceptance Rate': '78%',
+    'Head Coach': 'Matt Yingst', 'Coach Email': '',
+    'Coach Phone': '', 'Coach Background': 'UConn alum; 9th season; played pro (AHL Hershey Bears, ECHL); 2025 MAC Coach of Year; led LVC to best-ever 17-8-1.',
+    'Choate Connection': '',
+    'Roster Size': '', 'Defenders on Roster': '', 'Graduating Defenders': '',
+    'Program URL': 'https://godutchmen.com/sports/womens-ice-hockey',
+    'Questionnaire URL': '', Priority: '', Notes: 'Annville, PA.',
     'Last Updated': '2026-03-29',
   },
 ];
