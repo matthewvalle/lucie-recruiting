@@ -7,7 +7,7 @@
 // 5. Add authorized origins: http://localhost:4321, https://lucievalle.com
 // 6. Copy the Client ID below
 
-export const GOOGLE_CLIENT_ID = import.meta.env.PUBLIC_GOOGLE_CLIENT_ID || '';
+export const GOOGLE_CLIENT_ID = import.meta.env.PUBLIC_GOOGLE_CLIENT_ID || '723154055913-parqo1mvm4fmcbsl2k98a0g2mf7mh43k.apps.googleusercontent.com';
 export const SPREADSHEET_ID = import.meta.env.PUBLIC_SPREADSHEET_ID || '';
 
 // Whitelist family Google accounts
