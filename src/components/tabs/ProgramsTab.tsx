@@ -266,7 +266,7 @@ export default function ProgramsTab() {
 
               <div className="grid grid-cols-2 gap-2 text-xs">
                 <div>
-                  <span className="text-gray-400">Rank:</span>{' '}
+                  <span className="text-gray-400">Academics:</span>{' '}
                   <span className="font-medium">{program['Academic Ranking'] || 'N/A'}</span>
                 </div>
                 <div>
@@ -302,7 +302,7 @@ export default function ProgramsTab() {
                 <th className="text-left px-4 py-3 font-medium text-gray-500">Sport</th>
                 <th className="text-left px-4 py-3 font-medium text-gray-500">Div</th>
                 <th className="text-left px-4 py-3 font-medium text-gray-500">Conference</th>
-                <th className="text-left px-4 py-3 font-medium text-gray-500">Rank</th>
+                <th className="text-left px-4 py-3 font-medium text-gray-500">Academics</th>
                 <th className="text-left px-4 py-3 font-medium text-gray-500">Coach</th>
                 <th className="text-left px-4 py-3 font-medium text-gray-500">Priority</th>
                 <th className="text-left px-4 py-3 font-medium text-gray-500">Opening</th>
