@@ -20,8 +20,8 @@ Your edits are remembered in that browser. **Reset to defaults** goes back to th
 
 - Default events, name, number, etc. are in `src/lib/post-maker/defaults.ts`.
 - To add a photo to the picker, put the file in `public/post-maker/` and add it to `PRESET_PHOTOS`.
-- **Choate logo:** save the seal as `public/post-maker/choate-seal.png` (a transparent PNG works best).
-  Until then, use "Upload Choate logo" in the tool. It's remembered in that browser, and a "CRH"
-  placeholder shows otherwise.
+- **Choate logo:** the official seal loads from choatestore.com when the page opens. To use a local copy
+  instead, save it as `public/post-maker/choate-seal.png`. If it ever fails to load, use "Upload Choate logo"
+  in the tool (remembered in that browser); otherwise only the Tomahawks logo shows.
 
 The drawing code is in `src/lib/post-maker/render.ts`; the page is `src/components/PostMaker.tsx`.

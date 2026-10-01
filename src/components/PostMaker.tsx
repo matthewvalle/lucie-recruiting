@@ -2,16 +2,26 @@ import { useEffect, useRef, useState } from 'react';
 import { DEFAULT_CONFIG, LOGOS, PRESET_PHOTOS, type PostConfig, type PostEvent } from '../lib/post-maker/defaults';
 import { buildCaption, drawPost, H, THEMES, W, type Assets } from '../lib/post-maker/render';
 
-const STORAGE_KEY = 'lv-post-maker-v1';
+const STORAGE_KEY = 'lv-post-maker-v2';
 const CHOATE_LOGO_KEY = 'lv-post-maker-choate-logo';
 
 function loadImage(src: string): Promise<HTMLImageElement | null> {
   return new Promise((resolve) => {
     const img = new Image();
+    // Needed so remote logos don't block downloading the finished PNG.
+    if (src.startsWith('http')) img.crossOrigin = 'anonymous';
     img.onload = () => resolve(img);
     img.onerror = () => resolve(null);
     img.src = src;
   });
+}
+
+async function loadFirst(srcs: string[]) {
+  for (const src of srcs) {
+    const img = await loadImage(src);
+    if (img) return img;
+  }
+  return null;
 }
 
 function readFile(file: File): Promise<string> {
@@ -58,7 +68,7 @@ export default function PostMaker() {
     } catch {
       // ignore
     }
-    Promise.all([loadImage(LOGOS.tomahawks), savedChoate ? loadImage(savedChoate) : loadImage(LOGOS.choate)]).then(([tomahawks, choate]) =>
+    Promise.all([loadImage(LOGOS.tomahawks), savedChoate ? loadImage(savedChoate) : loadFirst(LOGOS.choate)]).then(([tomahawks, choate]) =>
       setAssets((a) => ({ ...a, tomahawks, choate })),
     );
     try {
@@ -300,7 +310,7 @@ export default function PostMaker() {
               <label className="flex items-center gap-2">
                 <input type="checkbox" checked={cfg.showChoate} onChange={(e) => set('showChoate', e.target.checked)} />
                 Choate logo
-                {!assets.choate && <span className="text-xs text-amber-600">(placeholder until you upload the seal)</span>}
+                {!assets.choate && <span className="text-xs text-amber-600">(couldn't load the seal, upload it below)</span>}
               </label>
               <label className="inline-block text-xs font-semibold text-navy cursor-pointer underline">
                 Upload Choate logo

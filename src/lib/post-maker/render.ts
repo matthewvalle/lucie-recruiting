@@ -184,26 +184,9 @@ function drawTitle(ctx: CanvasRenderingContext2D, cfg: PostConfig, t: Theme, top
   return y;
 }
 
-function drawChoateFallback(ctx: CanvasRenderingContext2D, x: number, y: number, w: number, h: number) {
-  const r = Math.min(w, h) / 2 - 4;
-  const cx = x + w / 2;
-  const cy = y + h / 2;
-  ctx.fillStyle = THEMES.choate.primary;
-  ctx.beginPath();
-  ctx.arc(cx, cy, r, 0, Math.PI * 2);
-  ctx.fill();
-  ctx.strokeStyle = THEMES.choate.accent;
-  ctx.lineWidth = 6;
-  ctx.stroke();
-  ctx.fillStyle = '#ffffff';
-  ctx.textAlign = 'center';
-  ctx.font = `${Math.round(r * 0.62)}px ${DISPLAY}`;
-  centredText(ctx, 'CRH', cx, cy);
-}
-
 function drawLogos(ctx: CanvasRenderingContext2D, cfg: PostConfig, t: Theme, a: Assets): number {
   const showT = cfg.showTomahawks && a.tomahawks;
-  const showC = cfg.showChoate;
+  const showC = cfg.showChoate && a.choate;
   const x = 724;
   const y = 36;
   const w = 326;
@@ -226,14 +209,11 @@ function drawLogos(ctx: CanvasRenderingContext2D, cfg: PostConfig, t: Theme, a: 
       drawContain(ctx, a.tomahawks!, x + pad, y + pad, 186, h - pad * 2);
       ctx.fillStyle = '#d9d9d9';
       ctx.fillRect(x + pad + 194, y + 30, 2, h - 60);
-      if (a.choate) drawContain(ctx, a.choate, x + pad + 204, y + pad, w - pad * 2 - 204, h - pad * 2);
-      else drawChoateFallback(ctx, x + pad + 204, y + pad, w - pad * 2 - 204, h - pad * 2);
+      drawContain(ctx, a.choate!, x + pad + 204, y + pad, w - pad * 2 - 204, h - pad * 2);
     } else if (showT) {
       drawContain(ctx, a.tomahawks!, x + pad, y + pad, w - pad * 2, h - pad * 2);
-    } else if (a.choate) {
-      drawContain(ctx, a.choate, x + pad, y + pad, w - pad * 2, h - pad * 2);
     } else {
-      drawChoateFallback(ctx, x + pad, y + pad, w - pad * 2, h - pad * 2);
+      drawContain(ctx, a.choate!, x + pad, y + pad, w - pad * 2, h - pad * 2);
     }
   }
 
@@ -334,6 +314,8 @@ function drawEvents(ctx: CanvasRenderingContext2D, cfg: PostConfig, t: Theme, to
 
 function drawNameplate(ctx: CanvasRenderingContext2D, cfg: PostConfig, t: Theme) {
   const cx = 660;
+  // Without a footer line, drop the whole name block lower to use the space.
+  const dy = cfg.footer.trim() ? 0 : 34;
 
   // Big jersey number over the bottom of the photo.
   if (cfg.number.trim()) {
@@ -344,9 +326,9 @@ function drawNameplate(ctx: CanvasRenderingContext2D, cfg: PostConfig, t: Theme)
     ctx.lineWidth = 10;
     ctx.strokeStyle = t.primary;
     ctx.lineJoin = 'round';
-    ctx.strokeText(num, 34, 1150);
+    ctx.strokeText(num, 34, 1150 + dy);
     ctx.fillStyle = t.accent;
-    ctx.fillText(num, 34, 1150);
+    ctx.fillText(num, 34, 1150 + dy);
     ctx.restore();
   }
 
@@ -355,12 +337,12 @@ function drawNameplate(ctx: CanvasRenderingContext2D, cfg: PostConfig, t: Theme)
     ctx.textAlign = 'center';
     ctx.fillStyle = '#ffffff';
     fitSize(ctx, info, (s) => `700 ${s}px ${BODY}`, 760, 40, 20);
-    centredText(ctx, info, cx, 1120);
+    centredText(ctx, info, cx, 1120 + dy);
   }
 
   const bx = 260;
   const bw = 800;
-  const by = 1160;
+  const by = 1160 + dy;
   const bh = 112;
   ctx.save();
   ctx.shadowColor = 'rgba(0,0,0,0.5)';
@@ -420,14 +402,14 @@ export function buildCaption(cfg: PostConfig) {
   const who = [cfg.name, cfg.position && cfg.position.charAt(0) + cfg.position.slice(1).toLowerCase(), cfg.gradYear && `Class of ${cfg.gradYear}`, cfg.schoolLine]
     .filter(Boolean)
     .join(' | ');
-  const tags = ['#girlslacrosse', '#wlax', '#lacrossegoalie', '#goalie', `#classof${cfg.gradYear}`, `#${cfg.gradYear}recruit`, '#lacrosserecruiting', '#fallball'];
+  const tags = ['#girlslacrosse', '#wlax', '#lacrossegoalie', '#leftygoalie', '#goalie', `#classof${cfg.gradYear}`, `#${cfg.gradYear}recruit`, '#lacrosserecruiting', '#fallball'];
   return [
     `${titleCased}! 🥍💜💛 ${cfg.igTeamHandle}`.trim(),
     '',
     events,
     '',
     who,
-    cfg.footer,
+    ...(cfg.footer.trim() ? [cfg.footer] : []),
     '',
     tags.join(' '),
   ].join('\n');

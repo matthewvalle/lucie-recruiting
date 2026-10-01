@@ -47,8 +47,8 @@ export const PRESET_PHOTOS: PresetPhoto[] = [
 
 export const LOGOS = {
   tomahawks: '/post-maker/tomahawks-logo.png',
-  // Drop the Choate seal at public/post-maker/choate-seal.png, or upload it in the tool.
-  choate: '/post-maker/choate-seal.png',
+  // Local copy is used first if present; otherwise the official seal from the Choate store.
+  choate: ['/post-maker/choate-seal.png', 'https://www.choatestore.com/cdn/shop/files/CRH_NewSeal-Vert-CMYK.png'],
 };
 
 export const DEFAULT_CONFIG: PostConfig = {
@@ -57,11 +57,11 @@ export const DEFAULT_CONFIG: PostConfig = {
   titleBottom: 'SCHEDULE',
   name: 'LUCIE VALLE',
   number: '13',
-  position: 'GOALIE',
+  position: 'LEFTY GOALIE',
   gradYear: '2029',
   teamLine: 'NH TOMAHAWKS 2029 PURPLE',
   schoolLine: 'CHOATE ROSEMARY HALL',
-  footer: 'lucievalle.com',
+  footer: '',
   igTeamHandle: '@nhtomahawksgirls',
   events: [
     { date: '2026-11-08', endDate: '', name: 'NE Showcase', location: 'Albany, NY' },
