@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { DEFAULT_CONFIG, LOGOS, PRESET_PHOTOS, type PostConfig, type PostEvent } from '../lib/post-maker/defaults';
 import { buildCaption, drawPost, H, THEMES, W, type Assets } from '../lib/post-maker/render';
 
-const STORAGE_KEY = 'lv-post-maker-v2';
+const STORAGE_KEY = 'lv-post-maker-v3';
 const CHOATE_LOGO_KEY = 'lv-post-maker-choate-logo';
 
 function loadImage(src: string): Promise<HTMLImageElement | null> {
