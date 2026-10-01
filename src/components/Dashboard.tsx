@@ -84,6 +84,12 @@ export default function Dashboard({ user, onLogout }: DashboardProps) {
 
             {/* User Menu */}
             <div className="flex items-center gap-3">
+              <a
+                href="/post-maker"
+                className="text-gold-light hover:text-white text-sm px-3 py-1 rounded-lg hover:bg-white/10 transition-colors"
+              >
+                Post Maker
+              </a>
               <span className="text-white/70 text-sm hidden sm:block">
                 {user.name}
               </span>
