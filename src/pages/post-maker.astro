@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PostMaker from '../components/PostMaker';
+---
+
+<Layout title="Lucie Valle | Instagram Post Maker">
+  <Fragment slot="head">
+    <meta name="robots" content="noindex" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+  </Fragment>
+  <PostMaker client:only="react" />
+</Layout>
