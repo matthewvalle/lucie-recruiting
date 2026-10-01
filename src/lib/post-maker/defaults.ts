@@ -47,8 +47,8 @@ export const PRESET_PHOTOS: PresetPhoto[] = [
 
 export const LOGOS = {
   tomahawks: '/post-maker/tomahawks-logo.png',
-  // Local copy is used first if present; otherwise the official seal from the Choate store.
-  choate: ['/post-maker/choate-seal.png', 'https://www.choatestore.com/cdn/shop/files/CRH_NewSeal-Vert-CMYK.png'],
+  // Shield only (the name is already written under the logos); full seal kept as a fallback.
+  choate: ['/post-maker/choate-shield.png', '/post-maker/choate-seal.png'],
 };
 
 export const DEFAULT_CONFIG: PostConfig = {

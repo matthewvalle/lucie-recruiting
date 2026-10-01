@@ -206,10 +206,18 @@ function drawLogos(ctx: CanvasRenderingContext2D, cfg: PostConfig, t: Theme, a: 
 
     const pad = 18;
     if (showT && showC) {
-      drawContain(ctx, a.tomahawks!, x + pad, y + pad, 186, h - pad * 2);
+      // Same height for both logos, as tall as the card allows.
+      const gap = 30;
+      const rT = a.tomahawks!.naturalWidth / a.tomahawks!.naturalHeight;
+      const rC = a.choate!.naturalWidth / a.choate!.naturalHeight;
+      const lh = Math.min(h - pad * 2, (w - pad * 2 - gap) / (rT + rC));
+      const used = lh * (rT + rC) + gap;
+      const lx = x + (w - used) / 2;
+      const ly = y + (h - lh) / 2;
+      ctx.drawImage(a.tomahawks!, lx, ly, lh * rT, lh);
       ctx.fillStyle = '#d9d9d9';
-      ctx.fillRect(x + pad + 194, y + 30, 2, h - 60);
-      drawContain(ctx, a.choate!, x + pad + 204, y + pad, w - pad * 2 - 204, h - pad * 2);
+      ctx.fillRect(lx + lh * rT + gap / 2 - 1, y + 30, 2, h - 60);
+      ctx.drawImage(a.choate!, lx + lh * rT + gap, ly, lh * rC, lh);
     } else if (showT) {
       drawContain(ctx, a.tomahawks!, x + pad, y + pad, w - pad * 2, h - pad * 2);
     } else {
