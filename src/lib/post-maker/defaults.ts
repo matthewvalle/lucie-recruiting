@@ -66,8 +66,8 @@ export const DEFAULT_CONFIG: PostConfig = {
   events: [
     { date: '2026-11-08', endDate: '', name: 'NE Showcase', location: 'Albany, NY' },
     { date: '2026-11-14', endDate: '', name: 'Fall Draw', location: 'Flemington, NJ' },
-    { date: '2026-11-15', endDate: '', name: 'Lax for the Cure', location: '' },
-    { date: '2026-11-20', endDate: '2026-11-22', name: 'Presidents Cup', location: '' },
+    { date: '2026-11-15', endDate: '', name: 'Lax for the Cure', location: 'New Egypt, NJ' },
+    { date: '2026-11-21', endDate: '2026-11-22', name: 'Presidents Cup', location: 'Lakewood Ranch, FL' },
   ],
   photoId: 'tomahawks-save',
   photoZoom: 1,
